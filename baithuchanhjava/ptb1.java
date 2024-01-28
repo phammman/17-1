@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GiaiPhuongTrinhBac1 {
+public class ptb1 {
 
     public static void main(String[] args) {
         // Nhap vao he so a, b
