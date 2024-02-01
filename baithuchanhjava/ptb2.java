@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GiaiPhuongTrinhBac2 {
+public class ptb2 {
 
     public static void main(String[] args) {
         // Nhập vào hệ số a, b, c
