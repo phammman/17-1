@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ptb1 {
 
     public static void main(String[] args) {
-        // Nhap vao he so a, b
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap he so a: ");
         int a = scanner.nextInt();

@@ -1,30 +1,27 @@
 import java.util.Scanner;
 
-public class ToanTu {
+public class bai1 {
 
     public static void main(String[] args) {
-        // Nhập vào 2 số
+       
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập số thứ nhất: ");
         int so1 = scanner.nextInt();
         System.out.println("Nhập số thứ hai: ");
         int so2 = scanner.nextInt();
 
-        // Tính toán các phép toán
         int tong = so1 + so2;
         int hieu = so1 - so2;
         int tich = so1 * so2;
         int thuong = so1 / so2;
         int du = so1 % so2;
 
-        // So sánh 2 số
         boolean bang = so1 == so2;
         boolean lonhon = so1 > so2;
         boolean nhohon = so1 < so2;
         boolean lonhonbang = so1 >= so2;
         boolean nhohonbang = so1 <= so2;
 
-        // Hiển thị kết quả
         System.out.println("Tổng: " + tong);
         System.out.println("Hiệu: " + hieu);
         System.out.println("Tích: " + tich);

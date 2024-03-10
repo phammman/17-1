@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KiemTraSoChanLe {
+public class bai2 {
 
     public static void main(String[] args) {
         // Nhập vào số
