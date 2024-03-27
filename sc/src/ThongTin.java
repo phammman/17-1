@@ -5,4 +5,4 @@ public class ThongTin{
         ps.nhapthongtin();
         ps.inthongtin();
     }
-}
+}    
