@@ -10,7 +10,6 @@ public class ptb1 {
         System.out.println("Nhap he so b: ");
         int b = scanner.nextInt();
 
-        // Giai phuong trinh
         if (a != 0) {
             int x = -b / a;
             System.out.println("Nghiem cua phuong trinh la: x = " + x);

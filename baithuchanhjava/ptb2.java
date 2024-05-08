@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ptb2 {
 
     public static void main(String[] args) {
-        // Nhập vào hệ số a, b, c
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập hệ số a: ");
         int a = scanner.nextInt();
@@ -12,8 +11,7 @@ public class ptb2 {
         System.out.println("Nhập hệ số c: ");
         int c = scanner.nextInt();
 
-        // Tính delta
-        int delta = b * b - 4 * a * c;
+        // Tính del        int delta = b * b - 4 * a * c;
 
         // Giải phương trình
         if (delta > 0) {

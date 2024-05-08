@@ -4,7 +4,7 @@ public class slide30 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập số nguyên n: ");
+        System.out.println("nhap vao so nguyen n : ");
         int n = scanner.nextInt();
 
         int sum = 0;
@@ -16,6 +16,6 @@ public class slide30 {
 
             n /= 10;
         }
-        System.out.println("Tổng các chữ số của n là: " + sum);
+        System.out.println("tong cac chu so cua n la: " + sum);
     }
 }
